@@ -1,26 +1,67 @@
 .wrap {}
 .wrap header {}
-.wrap header .rebon_banner {}
-.wrap header .rebon_banner p {}
-.wrap header .rebon_banner .close {}
-.wrap header h1 {}
+.wrap header .rebon_banner {
+    background-color: #000;
+    display: flex;
+    justify-content:space-between;
+    padding: 8px 158px;
+}
+.wrap header .rebon_banner p {
+    margin: 0 auto;
+    color: #fff;
+}
+.wrap header .rebon_banner .close {
+    color: #fff;
+}
+.wrap header h1 {
+    padding-top: 27px ;
+    padding-left: 150px ;
+}
 .wrap header h1 a {}
 .wrap header h1 a img {}
 .wrap header nav {}
-.wrap header nav .gnb {}
-.wrap header nav .gnb li {}
+.wrap header nav .head {
+    display: flex;
+    justify-content: space-between;
+}
+.wrap header nav .gnb {
+    display: flex;
+}
+.wrap header nav .gnb li {
+    margin: 0 15px;
+}
+.wrap header nav .gnb li:nth-child(1) {
+    padding-left: 140px;
+}
 .wrap header nav .gnb li a {}
 .wrap header nav .gnb li a {}
-.wrap header .user_icon {}
-.wrap header .user_icon a {}
+.wrap header .user_icon {
+}
+.wrap header .user_icon a {
+    margin-right:30px;
+}
+.wrap header .user_icon a:nth-child(3) {
+    padding-right: 78px;
+}
 .wrap header .user_icon a img {}
 .wrap main {}
-.wrap main #page1 {}
-.wrap main #page1 .main_banner {}
-.wrap main #page1 .main_banner .m_left {}
+.wrap main #page1 {
+    width: 1920px;
+    height: 960px;
+}
+.wrap main #page1 .main_banner {
+    position: absolute;
+}
+.wrap main #page1 .main_banner .m_left {
+    position: relative;
+}
 .wrap main #page1 .main_banner .m_left img {}
-.wrap main #page1 .main_banner .right {}
-.wrap main #page1 .main_banner .right img {}
+.wrap main #page1 .main_banner .right {
+    transform: scaleX(-1);
+    position: relative;
+}
+.wrap main #page1 .main_banner .right img {
+}
 .wrap main #page2 {}
 .wrap main #page2 .title {}
 .wrap main #page2 .title h2 {}
@@ -46,4 +87,43 @@
 .wrap main #page2 .product .left_rigth_button .left img {}
 .wrap main #page2 .product .left_rigth_button .rigth {}
 .wrap main #page2 .product .left_rigth_button .rigth img {}
+.wrap main #page3 .ad_banner {}
+.wrap main #page3 .ad_banner a {}
+.wrap main #page3 .ad_banner a img {}
+.wrap main #page4 {}
+.wrap main #page4 .title {} 
+.wrap main #page4 .title h2 {} 
+.wrap main #page4 .title h2 .outer {} 
+.wrap main #page4 .title h2 .top {} 
+.wrap main #page4 .title h2 .bottom {} 
+.wrap main #page4 .title h2 .dress_set {}
+.wrap main #page4 #product {}
+.wrap main #page4 #product .bottom {}
+.wrap main #page4 #product .bottom a {}
+.wrap main #page4 #product .bottom a img {}
+.wrap main #page4 #product .bottom a hr {}
+.wrap main #page4 #product .bottom a > p {}
+.wrap main #page4 #product .bottom a p {}
+.wrap main #page4 #product .left_rigth_button {}
+.wrap main #page4 #product .left_rigth_button .left {}
+.wrap main #page4 #product .left_rigth_button .rigth {}
+.wrap main #page5 {}
+.wrap main #page5 img {}
+.wrap main #page5 iframe {}
+.wrap main #page6 {}
+.wrap main #page6 .brand_product {}
+.wrap main #page6 .brand_product h2 {}
+.wrap main #page6 .brand_product .brand {}
+.wrap main #page6 .brand_product .brandevent {}
+.wrap main #page6 .brand_product .brandevent img {}
+.wrap main #page6 .brand_product .brandevent a {}
+.wrap main #page7 {}
+.wrap main #page7 .insta_icon {}
+.wrap main #page7 .insta_icon img {}
+.wrap main #page7 .insta_icon span {}
+.wrap main #page7 .instagram_pic {}
+.wrap main #page7 .instagram_pic img {}
+.wrap main footer {}
+.wrap main footer p {}
+.wrap main footer a {}
 
