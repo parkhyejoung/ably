@@ -1,4 +1,6 @@
-.wrap {}
+.wrap {
+    text-align: center;
+}
 .wrap header {}
 .wrap header .rebon_banner {
     background-color: #000;
@@ -62,32 +64,84 @@
 }
 .wrap main #page1 .main_banner .right img {
 }
-.wrap main #page2 {}
-.wrap main #page2 .title {}
-.wrap main #page2 .title h2 {}
-.wrap main #page2 .title .outer {}
+.wrap main #page2 {
+    text-align: center;
+}
+.wrap main #page2 .title {
+    
+}
+.wrap main #page2 .title h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.wrap main #page2 .title .pi{
+    padding-bottom: 20px;
+}
+.wrap main #page2 .title .outer {
+    margin-right: 20px;
+}
 .wrap main #page2 .title .outer_s {}
-.wrap main #page2 .title .top {}
-.wrap main #page2 .title .top_s {}
-.wrap main #page2 .title .bottom {}
+.wrap main #page2 .title .top {
+    margin-right: 20px;
+}
+.wrap main #page2 .title .top_s {
+    font-weight: 600;
+}
+.wrap main #page2 .title .bottom {
+    margin-right: 20px;
+}
 .wrap main #page2 .title .bottom_s {}
-.wrap main #page2 .title .drees_set {}
+.wrap main #page2 .title .drees_set {
+}
 .wrap main #page2 .title .drees_set_s {}
-.wrap main #page2 .product {}
+.wrap main #page2 .product {
+}
 .wrap main #page2 .product .top {}
-.wrap main #page2 .product .top_c {}
-.wrap main #page2 .product .top_c a {}
+.wrap main #page2 .product .top_c {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.wrap main #page2 .product .top_c a {
+    margin-right: 30px;
+}
+.wrap main #page2 .product .top_c a:nth-child(4) {
+    margin-right: 0;
+}
 .wrap main #page2 .product .top_c a img {}
-.wrap main #page2 .product .top_c a h3 {}
-.wrap main #page2 .product .top_c a hr {}
+.wrap main #page2 .product .top_c a h3 {
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wrap main #page2 .product .top_c a hr {
+    
+}
 .wrap main #page2 .product .top_c a .description {}
-.wrap main #page2 .product .top_c a p {}
+.wrap main #page2 .product .top_c a p {
+    font-size: 0.938rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.wrap main #page2 .product .top_c a > p {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: right;
+}
 .wrap main #page2 .product .left_rigth_button {}
 .wrap main #page2 .product .left_rigth_button .left {}
 .wrap main #page2 .product .left_rigth_button .left img {}
-.wrap main #page2 .product .left_rigth_button .rigth {}
+.wrap main #page2 .product .left_rigth_button .rigth {
+    transform: scaleX(-1);
+    position: relative;
+}
 .wrap main #page2 .product .left_rigth_button .rigth img {}
-.wrap main #page3 .ad_banner {}
+.wrap main #page3 .ad_banner {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 .wrap main #page3 .ad_banner a {}
 .wrap main #page3 .ad_banner a img {}
 .wrap main #page4 {}
@@ -97,8 +151,13 @@
 .wrap main #page4 .title h2 .top {} 
 .wrap main #page4 .title h2 .bottom {} 
 .wrap main #page4 .title h2 .dress_set {}
-.wrap main #page4 #product {}
-.wrap main #page4 #product .bottom {}
+.wrap main #page4 #product {
+}
+.wrap main #page4 #product .bottom {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
 .wrap main #page4 #product .bottom a {}
 .wrap main #page4 #product .bottom a img {}
 .wrap main #page4 #product .bottom a hr {}
@@ -106,15 +165,24 @@
 .wrap main #page4 #product .bottom a p {}
 .wrap main #page4 #product .left_rigth_button {}
 .wrap main #page4 #product .left_rigth_button .left {}
-.wrap main #page4 #product .left_rigth_button .rigth {}
+.wrap main #page4 #product .left_rigth_button .rigth {
+    transform: scaleX(-1);
+    position: relative;
+}
 .wrap main #page5 {}
 .wrap main #page5 img {}
 .wrap main #page5 iframe {}
 .wrap main #page6 {}
-.wrap main #page6 .brand_product {}
+.wrap main #page6 .brand_product {
+}
 .wrap main #page6 .brand_product h2 {}
-.wrap main #page6 .brand_product .brand {}
-.wrap main #page6 .brand_product .brandevent {}
+.wrap main #page6 .brand_product .brand {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.wrap main #page6 .brand_product .brandevent {
+}
 .wrap main #page6 .brand_product .brandevent img {}
 .wrap main #page6 .brand_product .brandevent a {}
 .wrap main #page7 {}
