@@ -146,11 +146,36 @@
 .wrap main #page3 .ad_banner a img {}
 .wrap main #page4 {}
 .wrap main #page4 .title {} 
-.wrap main #page4 .title h2 {} 
-.wrap main #page4 .title h2 .outer {} 
-.wrap main #page4 .title h2 .top {} 
-.wrap main #page4 .title h2 .bottom {} 
-.wrap main #page4 .title h2 .dress_set {}
+.wrap main #page4 .title h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+} 
+
+.wrap main #page4 .title .outer {    
+    font-size: 0.938rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+.wrap main #page4 .title .top {
+    font-size: 0.938rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+.wrap main #page4 .title .bottom {
+    font-size: 0.938rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+} 
+.wrap main #page4 .title .dress_set {
+    font-size: 0.938rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
 .wrap main #page4 #product {
 }
 .wrap main #page4 #product .bottom {
