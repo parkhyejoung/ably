@@ -36,7 +36,6 @@
     align-items: flex-end;
     width: 100%;
     justify-content:space-between;
-    background-color: aqua;
 }
 .wrap header nav .head .gnb {
     display: flex;
@@ -85,6 +84,11 @@
 .wrap main #page2 .title .pi{
     padding-bottom: 20px;
 }
+.wrap main #page2 .title .pi span {
+}
+.wrap main #page2 .title .pi em {
+    text-decoration: underline;
+}
 .wrap main #page2 .title .outer {
     margin-right: 20px;
 }
@@ -118,70 +122,88 @@
 }
 .wrap main #page2 .product .top_c a img {}
 .wrap main #page2 .product .top_c a h3 {
-    font-weight: 500;
+    font-weight: 600;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .wrap main #page2 .product .top_c a hr {
-    
+    color: #f5f5f5;
 }
 .wrap main #page2 .product .top_c a .description {}
 .wrap main #page2 .product .top_c a p {
     font-size: 0.938rem;
     padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+    color: #9F9F9F;
 }
 .wrap main #page2 .product .top_c a > p {
     font-size: 1rem;
     font-weight: 500;
     text-align: right;
+    text-align: center;
 }
-.wrap main #page2 .product .left_rigth_button {}
-.wrap main #page2 .product .left_rigth_button .left {}
-.wrap main #page2 .product .left_rigth_button .left img {}
+.wrap main #page2 .product .left_rigth_button {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    width: 100%;
+    padding: 30px 30%;
+}
+.wrap main #page2 .product .left_rigth_button hr {
+    width: 40px;
+    height: 4px;
+    background-color: #C4C4C4;
+    border: none;
+    border-radius: 30px;
+    margin:0 auto;
+}
+.wrap main #page2 .product .left_rigth_button .left {
+}
+.wrap main #page2 .product .left_rigth_button .left img {
+    width: 10px;
+    height: 20px;
+}
 .wrap main #page2 .product .left_rigth_button .rigth {
     transform: scaleX(-1);
-    position: relative;
 }
-.wrap main #page2 .product .left_rigth_button .rigth img {}
+.wrap main #page2 .product .left_rigth_button .rigth img {
+    width: 10px;
+    height: 20px;
+}
 .wrap main #page3 .ad_banner {
     padding-top: 80px;
     padding-bottom: 80px;
 }
-.wrap main #page3 .ad_banner a {}
+.wrap main #page3 .ad_banner a:nth-child(1) {
+    padding-right: 25px;
+}
 .wrap main #page3 .ad_banner a img {}
-.wrap main #page4 {}
-.wrap main #page4 .title {} 
+.wrap main #page4 {
+}
+.wrap main #page4 .title {
+    padding-bottom: 20px;
+} 
 .wrap main #page4 .title h2 {
     font-size: 2rem;
     font-weight: 600;
     padding-bottom: 30px;
 } 
+.wrap main #page4 .title span {
+    margin-right: 20px;
+}
+.wrap main #page4 .title em {
+    font-weight: 600;
+    margin-right: 20px;
+}
 
 .wrap main #page4 .title .outer {    
-    font-size: 0.938rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
 } 
 .wrap main #page4 .title .top {
-    font-size: 0.938rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
 } 
 .wrap main #page4 .title .bottom {
-    font-size: 0.938rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+    text-decoration: underline;
 } 
 .wrap main #page4 .title .dress_set {
-    font-size: 0.938rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
+    margin-right: 0;
 }
 .wrap main #page4 #product {
 }
@@ -190,24 +212,78 @@
     flex-flow: row nowrap;
     justify-content: center;
 }
-.wrap main #page4 #product .bottom a {}
+.wrap main #page4 #product .bottom a {
+    margin-right: 30px;
+}
 .wrap main #page4 #product .bottom a img {}
-.wrap main #page4 #product .bottom a hr {}
-.wrap main #page4 #product .bottom a > p {}
+.wrap main #page4 #product .bottom a h3 {
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wrap main #page4 #product .bottom a hr {
+    color: #f5f5f5;
+}
+.wrap main #page4 #product .bottom a > p {
+    font-size: 0.938rem;
+    padding-top: 10px;
+    color: #9F9F9F;
+}
 .wrap main #page4 #product .bottom a p {}
-.wrap main #page4 #product .left_rigth_button {}
+.wrap main #page4 #product .left_rigth_button {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    width: 100%;
+    padding: 30px 30%;
+}
+.wrap main #page4 #product .left_rigth_button hr {
+    width: 40px;
+    height: 4px;
+    background-color: #C4C4C4;
+    border: none;
+    border-radius: 30px;
+    margin:0 auto;
+}
 .wrap main #page4 #product .left_rigth_button .left {}
+.wrap main #page4 #product .left_rigth_button .left img {
+    width: 10px;
+    height: 20px;
+}
 .wrap main #page4 #product .left_rigth_button .rigth {
     transform: scaleX(-1);
     position: relative;
 }
-.wrap main #page5 {}
-.wrap main #page5 img {}
-.wrap main #page5 iframe {}
+.wrap main #page4 #product .left_rigth_button .rigth img{
+    width: 10px;
+    height: 20px;
+}
+.wrap main #page5 {
+    position: relative;
+    width: 100%;
+}
+.wrap main #page5 img {
+    display: block;
+}
+.wrap main #page5 iframe {
+    top: 260px;   /* 검은 박스의 Y축 시작 위치 */
+    left: 500px; /* 검은 박스의 X축 시작 위치 */
+    width: 937px;  /* 검은 박스 가로 길이 */
+    height: 556px; /* 검은 박스 세로 길이 */
+    overflow: hidden;
+    position: absolute;
+}
 .wrap main #page6 {}
 .wrap main #page6 .brand_product {
+    padding: 60px
 }
-.wrap main #page6 .brand_product h2 {}
+.wrap main #page6 .brand_product h2 {
+    font-size: 2rem;
+    padding-bottom: 60px;
+}
+.wrap main #page6 .brand_product h2 em {
+    font-weight: 600;
+}
 .wrap main #page6 .brand_product .brand {
     display: flex;
     flex-flow: row nowrap;
@@ -216,14 +292,72 @@
 .wrap main #page6 .brand_product .brandevent {
 }
 .wrap main #page6 .brand_product .brandevent img {}
-.wrap main #page6 .brand_product .brandevent a {}
-.wrap main #page7 {}
-.wrap main #page7 .insta_icon {}
-.wrap main #page7 .insta_icon img {}
-.wrap main #page7 .insta_icon span {}
-.wrap main #page7 .instagram_pic {}
+.wrap main #page6 .brand_product .brandevent a {
+    font-size: 1.25rem;
+    color: #6D6D6D;
+    border: 1px solid #9F9F9F;
+    border-radius: 30px;
+    padding: 10px;
+    display: inline-block;
+}
+.wrap main #page6 .brand_product .left_rigth_button {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    width: 100%;
+    padding: 30px 30%;
+}
+.wrap main #page6 .brand_product .left_rigth_button hr {
+    width: 40px;
+    height: 4px;
+    background-color: #C4C4C4;
+    border: none;
+    border-radius: 30px;
+    margin:0 auto;
+}
+.wrap main #page6 .brand_product .left_rigth_button .left {}
+.wrap main #page6 .brand_product .left_rigth_button .left img {
+    width: 10px;
+    height: 20px;
+}
+.wrap main #page6 .brand_product .left_rigth_button .rigth {transform: scaleX(-1);}
+.wrap main #page6 .brand_product .left_rigth_button .rigth img {
+    width: 10px;
+    height: 20px;
+}
+.wrap main #page7 {
+    padding: 0 15px;
+}
+.wrap main #page7 .insta_icon {
+    padding-bottom: 20px;
+}
+.wrap main #page7 .insta_icon img {
+    width: 20px;
+    height: 20px;
+}
+.wrap main #page7 .insta_icon span {
+    font-size: 1.5rem;
+}
+.wrap main #page7 .instagram_pic {
+    display: flex;
+    flex-flow: row wrap;
+    align-content:space-around;
+    gap: 15px;
+    padding-bottom: 60px;
+}
 .wrap main #page7 .instagram_pic img {}
-.wrap main footer {}
-.wrap main footer p {}
-.wrap main footer a {}
-
+.wrap footer .foot {
+    width: 100vw;
+    background-color: #000;
+    text-align: left;
+    padding: 50px 10px;
+}
+.wrap footer .foot p {
+    color: #fff;
+}
+.wrap footer .foot a {
+    color: #fff;
+    font-weight: 600;
+    margin-top: 15px;
+    display: block;
+}
