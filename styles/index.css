@@ -55,7 +55,8 @@
 .wrap main {}
 .wrap main #page1 {
     width: 100%;
-    height: 960px;
+    /* height: 960px; */
+    padding-bottom: 60px;
 }
 .wrap main #page1 .main_banner {
     width:max-content; margin:0 auto;
@@ -359,5 +360,4 @@
     color: #fff;
     font-weight: 600;
     margin-top: 15px;
-    display: block;
 }
